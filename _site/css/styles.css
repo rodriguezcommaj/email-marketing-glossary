@@ -60,4 +60,5 @@ nav a:hover { border-bottom: 2px solid var(--black); transform: translateY(-4px)
 /* Mobile Stuff */
 @media screen and (max-width: 48rem) {
   .container { padding: 0 8%; }
+  .section-title { border-left: 100px solid var(--blue); }
 }
