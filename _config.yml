@@ -1,0 +1,81 @@
+title: The Email Marketing Glossary
+email: jason@thebetter.email
+description: >- # this means to ignore newlines until "baseurl:"
+  The email marketing glossary you always wanted. Look up those pesky, confusing acronyms and make your life easier with this handy guide. 
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://emailmarketinglossary.com" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Build settings
+markdown: kramdown
+gems:
+  - jekyll-feed
+  - jekyll-paginate
+exclude:
+  - Gemfile
+  - Gemfile.lock
+include:
+  - _redirects
+plugins: [jekyll-paginate]
+paginate: 3
+paginate_path: "/blog/page:num/"
+
+# collections:
+#   terms:
+#     output: true
+#     permalink: /terms/:name
+
+collections:
+  a:
+    output: true
+  b:
+    output: true
+  c:
+    output: true
+  d:
+    output: true
+  e:
+    output: true
+  f:
+    output: true
+  g:
+    output: true
+  h:
+    output: true
+  i:
+    output: true
+  j:
+    output: true
+  k:
+    output: true
+  l:
+    output: true
+  m:
+    output: true
+  n:
+    output: true
+  o:
+    output: true
+  p:
+    output: true
+  q:
+    output: true
+  r:
+    output: true
+  s:
+    output: true
+  t:
+    output: true
+  u:
+    output: true
+  v:
+    output: true
+  w:
+    output: true
+  x:
+    output: true
+  y:
+    output: true
+  z:
+    output: true
+  
+collections_dir: terms

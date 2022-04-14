@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		{% include head.html %}
+	</head>
+	<body>
+		<div class="page">
+			<div class="top">
+				{% include header.html %}
+				{% if page.blurb %}
+				<div class="container"><p class="blurb">{{ page.blurb }}</p></div>
+				{% endif %}
+			</div>
+			<main>
+				<div class="container">
+					<blockquote class="quote-card pull">
+						I thought I already had many tricks and tactics down pat, but time and again as I kept reading I found myself SMH as you presented a more elegant, supported, and email client-friendly way to accomplish the same or better! Bravo! - <cite>Lenny Tafro</cite>
+						<div><a href="/guides" class="button">Level Up Your Skills</a></div>
+					</blockquote>
+					<h1 class="page-title">{{ page.title }}</h1>
+					{{ content }}
+				</div>
+			</main>
+			{% include footer.html %}
+		</div>
+	</body>
+</html>

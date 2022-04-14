@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		{% include head.html %}
+	</head>
+	<body id="top">
+		<div class="page">
+			<div class="top">
+				{% include header.html %}
+				{% if page.blurb %}
+				<div class="container"><p class="blurb">{{ page.blurb }}</p></div>
+				{% endif %}
+			</div>
+			<main>
+				<div class="container">
+					{{ content }}
+				</div>
+			</main>
+			{% include footer.html %}
+		</div>
+	</body>
+</html>

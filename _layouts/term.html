@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		{% include head.html %}
+	</head>
+	<body>
+		<div class="page">
+			{% include header.html %}
+			<main>
+				<article class="container">
+					<h1 class="post-title">{{ page.term }}</h1>
+                    {% if page.aka %}<p><strong>Also known as:</strong> {{ page.aka }}</p>{% endif %}
+                    <p>{{ page.definition }}</p>
+					{{ content }}
+				</article>
+			</main>
+			{% include footer.html %}
+		</div>
+	</body>
+</html>
