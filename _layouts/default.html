@@ -5,12 +5,7 @@
 	</head>
 	<body id="top">
 		<div class="page">
-			<div class="top">
-				{% include header.html %}
-				{% if page.blurb %}
-				<div class="container"><p class="blurb">{{ page.blurb }}</p></div>
-				{% endif %}
-			</div>
+			{% include header.html %}
 			<main>
 				<div class="container">
 					{{ content }}

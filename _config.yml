@@ -19,11 +19,6 @@ plugins: [jekyll-paginate]
 paginate: 3
 paginate_path: "/blog/page:num/"
 
-# collections:
-#   terms:
-#     output: true
-#     permalink: /terms/:name
-
 collections:
   a:
     output: true
