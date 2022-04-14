@@ -1,6 +1,6 @@
 ---
 layout: term
-term: Click To Open Rate
+term: Click To Open Rate (CTOR)
 aka: CTOR
 definition:
     The percentage of people that opened an email and clicked a link.

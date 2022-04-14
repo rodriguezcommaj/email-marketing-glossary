@@ -1,6 +1,6 @@
 ---
 layout: term
-term: RFM
+term: Recency, Frequency, Monetary (RFM)
 aka:
 definition:
     Acronym for Recency, Frequency, Monetary. A model for analyzing the value of customers based on the recency of their last purchase, how frequently they purchase, and how much money they spend. Good for identifying your best customers.

@@ -1,6 +1,6 @@
 ---
 layout: term
-term: Click Rate
+term: Click Rate (CR)
 aka: Click Through Rate, CR
 definition:
     The percentage of people who click on a link within an email out of all email recipients.

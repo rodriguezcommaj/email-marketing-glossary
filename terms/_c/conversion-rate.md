@@ -1,7 +1,7 @@
 ---
 layout: term
-term: Conversion Rate
-aka:
+term: Conversion Rate (CR)
+aka: CR
 definition:
     The percentage of users who take the intended action of an email campaign, whether that's clicking a specific link, purchasing, replying, etc. The higher the better. 
 ---

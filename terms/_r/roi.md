@@ -1,6 +1,6 @@
 ---
 layout: term
-term: ROI
+term: Return On Investment (ROI)
 aka: Return On Investment
 definition:
     Stands for Return On Investment. An important metric that shows how effective your email marketing is compared to the expense of running an email marketing program. Can be difficult to measure accurately. 

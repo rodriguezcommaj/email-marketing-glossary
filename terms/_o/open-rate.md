@@ -1,6 +1,6 @@
 ---
 layout: term
-term: Open Rate
+term: Open Rate (OR)
 aka: OR
 definition:
     The percentage of recipients who open an email. Useful in determining the overall health of an email send, but less useful than things like CTOR for determining subscriber engagement.

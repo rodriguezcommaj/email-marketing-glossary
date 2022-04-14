@@ -1,6 +1,6 @@
 ---
 layout: term
-term: Customer Acquisition Cost
+term: Customer Acquisition Cost (CAC)
 aka: CAC
 definition:
     How much it costs to acquire a new customer. The lower the better.

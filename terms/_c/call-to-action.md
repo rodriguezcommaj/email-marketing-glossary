@@ -1,6 +1,6 @@
 ---
 layout: term
-term: Call-To-Action
+term: Call-To-Action (CTA)
 aka: CTA
 definition:
     The main action you want a subscriber to take. Usually a button. Best to make it descriptive of the action or intended result instead of something like “Learn More.”

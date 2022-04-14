@@ -1,6 +1,6 @@
 ---
 layout: term
-term: Revenue Per Email Sent
+term: Revenue Per Email Sent (RPE)
 aka: RPE
 definition:
     A metric that describes the amount of money generated per email. The higher the better.
