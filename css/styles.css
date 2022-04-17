@@ -57,8 +57,20 @@ nav a:hover { border-bottom: 2px solid var(--black); transform: translateY(-4px)
 .more-info { background-color: var(--blue-light); border-radius: 4px; display: inline-block; font-size: 0.8rem; margin: 0.6rem 0; padding: 3px 16px 2px 16px; text-decoration: none; }
 .more-info:hover { background-color: var(--blue); color: var(--blue-light); }
 
+/* Bottom Nav */
+.bottom-nav { display: flex; justify-content: space-between; margin: 8rem 0 0 0; }
+.bottom-nav strong { display: block; }
+.bottom-nav div:nth-child(1) { text-align: left; }
+.bottom-nav div:nth-child(2) { text-align: right; }
+.bottom-nav a { background-color: var(--blue-light); border-radius: 4px; display: inline-block; font-size: 1.2rem; margin: 0.6rem 0; padding: 12px 24px 12px 24px; text-decoration: none; }
+.bottom-nav a:hover { background-color: var(--blue); border: none; color: var(--blue-light); transform: none; }
+.collection { background-color: var(--blue); border-radius: 4px; color: var(--blue-light); padding: 2px 6px; }
+
 /* Mobile Stuff */
 @media screen and (max-width: 48rem) {
   .container { padding: 0 8%; }
   .section-title { border-left: 100px solid var(--blue); }
+  .bottom-nav { font-size: 0.8rem; }
+  .bottom-nav a { font-size: 0.8rem; padding: 6px 12px 5px 12px; }
+  .site-header, .site-footer { font-size: 0.8rem; }
 }

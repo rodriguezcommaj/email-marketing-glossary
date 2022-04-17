@@ -13,6 +13,28 @@
                     <p>{{ page.definition }}</p>
 					{{ content }}
 				</article>
+				<nav class="container">
+					<div class="bottom-nav">
+						<div>
+							{% if page.previous.url %}
+							<strong>Previous <span class="collection">{{ page.collection | <capitalize></capitalize> }}</span> Term</strong>
+							<a href="{{page.previous.url}}">&larr; {{page.previous.title}}</a>
+							{% else %}
+							<strong>Explore More</strong>
+							<a href="/">Go Back to the Start</a>
+							{% endif %}
+						</div>
+						<div>
+							{% if page.next.url %}
+							<strong>Next <span class="collection">{{ page.collection | <capitalize></capitalize> }}</span> Term</strong>
+							<a href="{{page.next.url}}">{{page.next.title}} &rarr;</a>
+							{% else %}
+							<strong>Explore More</strong>
+							<a href="/">Go Back to the Start</a>
+							{% endif %}
+						</div>
+					</div>
+				</nav>
 			</main>
 			{% include footer.html %}
 		</div>
