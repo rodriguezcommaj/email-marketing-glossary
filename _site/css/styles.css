@@ -6,6 +6,8 @@
     --black: #04193C;
     --blue: #0050D8;
     --blue-light: #D0E2FF;
+    --yellow: #FFDF6F;
+    --yellow-light: #FFEDBE;
 
     --sans: 'Avenir Next', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
 }
@@ -24,6 +26,8 @@ body {
 
 a { color: var(--blue); font-weight: 500; text-decoration-thickness: 1px; text-underline-offset: 2px; }
 a:hover { color: var(--black); text-decoration: none; }
+a.button { background-color: var(--black); border-radius: 4px; color: var(--white); display: inline-block; font-weight: 600; padding: 0.4rem 1.6rem; text-decoration: none; }
+a.button:hover { background-color: var(--blue); }
 
 h1, h2, h3, h4, h5, h6 { font-weight: 600; margin: 0; }
 h1 { font-size: 2rem; line-height: 1.2; margin: 2rem 0; }
@@ -57,6 +61,10 @@ nav a:hover { border-bottom: 2px solid var(--black); transform: translateY(-4px)
 .more-info { background-color: var(--blue-light); border-radius: 4px; display: inline-block; font-size: 0.8rem; margin: 0.6rem 0; padding: 3px 16px 2px 16px; text-decoration: none; }
 .more-info:hover { background-color: var(--blue); color: var(--blue-light); }
 
+/* Banners */
+aside { background-color: var(--yellow-light); border: 1px solid var(--yellow); border-radius: 4px; margin: 2rem 0; padding: 2rem; }
+aside p { font-size: 1.4rem;   }
+
 /* Bottom Nav */
 .bottom-nav { display: flex; justify-content: space-between; margin: 8rem 0 0 0; }
 .bottom-nav strong { display: block; }
@@ -73,4 +81,5 @@ nav a:hover { border-bottom: 2px solid var(--black); transform: translateY(-4px)
   .bottom-nav { font-size: 0.8rem; }
   .bottom-nav a { font-size: 0.8rem; padding: 6px 12px 5px 12px; }
   .site-header, .site-footer { font-size: 0.8rem; }
+  aside { text-align: center; }
 }
