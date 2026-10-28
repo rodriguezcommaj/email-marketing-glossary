@@ -13,3 +13,4 @@ definition:
 - [Email Deliverability Best Practices Guide](https://sendgrid.com/resource/email-deliverability/), SendGrid
 - [Email Deliverability Check](https://mxtoolbox.com/deliverability), MXToolBox
 - [Email Deliverability Explained in Under 5 Minutes](https://postmarkapp.com/glossary/email-deliverability), Postmark
+- [The Modern Handbook on Email Deliverability](https://www.suped.com/learn/email-deliverability), Suped
